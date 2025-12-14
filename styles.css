@@ -10,6 +10,7 @@ body {
   background: linear-gradient(145deg, #1b0036, #4a0078);
   color: #fff;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* HEADER */
@@ -87,7 +88,7 @@ header {
 
 .white-btn {
   padding: 12px 30px;
-  background: #ff6b6b;
+  background: #c02a2a;
   border: none;
   border-radius: 25px;
   color: #fff;
@@ -166,11 +167,11 @@ header {
 }
 
 .crypto-hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px;
 }
 
 /* HERO TEXT */
@@ -304,6 +305,9 @@ td {
 
   .chart {
     width: 50px;
+  }
+  .coin {
+    width: 25%;
   }
 }
 
